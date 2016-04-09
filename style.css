@@ -55,6 +55,7 @@
 	float:  right;
 	visibility: hidden;
      font-family: 'Oswald';
+    transform: translateY(-10px)
 }
 
 .list {

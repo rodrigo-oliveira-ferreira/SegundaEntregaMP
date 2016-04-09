@@ -8,7 +8,7 @@ function addItem() {
 	var li = document.createElement('li');
 	var txt = document.createElement('div');
 	var deleteBtn = document.createElement('button');
-	deleteBtn.textContent = "X";
+	deleteBtn.textContent = "Apagar";
 	deleteBtn.className = "btn btn-delete";
 	deleteBtn.addEventListener('click', deleteItem);
     
