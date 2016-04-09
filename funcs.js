@@ -48,9 +48,9 @@ function chek(){
     var txt = this.children[0].innerHTML;
     //alert(txt);
     if(txt.search(ck) != -1) {
-       this.children[0].innerHTML.replace("-> Feito" , " ");
+       this.children[0].innerHTML.replace("- Feito" , "");
         }else {
-       this.children[0].innerHTML = txt + "-> Feito";
+       this.children[0].innerHTML = txt + "- Feito";
     }
   
     
